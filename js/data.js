@@ -1,11 +1,11 @@
 export const quizData = [
 	{
-		question: 'How old is Rihanna?',
-		a: '30',
-		b: '31',
-		c: '32',
-		d: '29',
-		correct: 'c',
+		question: 'What is the most used database?',
+		a: 'SQLite',
+		b: 'PostgreSql',
+		c: 'Sql',
+		d: 'Mysql',
+		correct: 'd',
 	},
 	{
 		question: 'What is the best programing languages to learn in 2020?',
@@ -16,11 +16,11 @@ export const quizData = [
 		correct: 'b',
 	},
 	{
-		question: 'Who is the best movie?',
-		a: 'Frozen 2',
-		b: 'The Lyon King',
-		c: 'Spider-man',
-		d: 'Batman',
+		question: 'Js framework or library most used currently?',
+		a: 'Angular',
+		b: 'Vue js',
+		c: 'React js',
+		d: 'Svelte',
 		correct: 'c',
 	},
 	{
