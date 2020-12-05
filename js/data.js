@@ -1,0 +1,42 @@
+export const quizData = [
+	{
+		question: 'How old is Rihanna?',
+		a: '30',
+		b: '31',
+		c: '32',
+		d: '29',
+		correct: 'c',
+	},
+	{
+		question: 'What is the best programing languages to learn in 2020?',
+		a: 'Javascript',
+		b: 'Python',
+		c: 'Go',
+		d: 'Java',
+		correct: 'b',
+	},
+	{
+		question: 'Who is the best movie?',
+		a: 'Frozen 2',
+		b: 'The Lyon King',
+		c: 'Spider-man',
+		d: 'Batman',
+		correct: 'c',
+	},
+	{
+		question: 'What does HTML stand for?',
+		a: 'Hypertext Markup Language',
+		b: 'Cascading Style Sheet',
+		c: 'Jason Object Notation',
+		d: 'Interface Programming Application',
+		correct: 'a',
+	},
+	{
+		question: 'What year was JavaScript Launched?',
+		a: '1994',
+		b: '1997',
+		c: '1996',
+		d: '1995',
+		correct: 'd',
+	},
+]

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz App</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+		<script src="./js/index.js" type="module" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="evaluation-answers">
+				<div class="container-inner">
+					<ul class="evaluation-answers-list">
+						<li>
+							<i class="fas fa-check"></i>
+							<div>
+								<span id="correct-answer">0</span>
+								<span>correct</span>
+							</div>
+						</li>
+						<li>
+							<i class="fas fa-times"></i>
+							<div>
+								<span id="incorrect-answer">0</span>
+								<span>wrong</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="container-inner">
+				<div class="box-question">
+					<p class="questions-counter">Question <span id="number-question">0</span> (<span id="number-remaining">0</span> remaining)</p>
+					<h2 id="question">Question Text</h2>
+					<p class="question-option">Answer options</p>
+					<ul>
+						<li class="input-group">
+							<input type="radio" id="a" name="answer" class="answer" />
+							<span>A</span>
+							<label id="question-a" for="a"></label>
+						</li>
+						<li class="input-group">
+							<input type="radio" id="b" name="answer" class="answer" />
+							<span>B</span>
+							<label id="question-b" for="b"></label>
+						</li>
+						<li class="input-group">
+							<input type="radio" id="c" name="answer" class="answer" />
+							<span>C</span>
+							<label id="question-c" for="c"></label>
+						</li>
+						<li class="input-group">
+							<input type="radio" id="d" name="answer" class="answer" />
+							<span>D</span>
+							<label id="question-d" for="d"></label>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<button id="btnSend">Send Answer</button>
+		</div>
+	</body>
+</html>
